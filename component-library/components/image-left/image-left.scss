@@ -1,0 +1,35 @@
+
+.c-section-image-left-block {
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 96px 0px;
+    &__image-left {
+        grid-column: 2 / 8;
+        align-self: center;
+            img {
+                padding: 10px;
+                height: 314px;
+                width: 558px;
+            }
+    }
+    &__right {
+        grid-column: 8 / 14;
+        padding-left: 64px;
+    }
+    &__subtitle {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #3B3B3D;
+    }
+    &__uppercase {
+        color: #26A726;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16.0355px;
+        text-transform: uppercase;
+    }
+}

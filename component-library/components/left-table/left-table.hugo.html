@@ -1,0 +1,24 @@
+{{ $c := "c-section-left-table-block"}}
+
+<div class="{{ $c }}" style=" background-color: {{ .section_background }}">
+    <div class="{{$c}}__text">
+        <h4 class="subtitle {{ $c }}__text__subtitle">{{ .subtitle }}</h4>
+        
+        <div class="{{ $c }}__table">
+            <p class="text {{ $c }}__text__body">{{ .text }}</p>
+                <img src="{{ .icon1_path }}">
+                <img src="{{ .icon2_path }}">
+                <img src="{{ .icon3_path }}">
+                <p class="{{ $c }}__table__bold">Deforestation</p>
+                <p class="{{ $c }}__table__bold">Print Footprint</p>
+                <p class="{{ $c }}__table__bold">Climate change</p>
+                <p class="{{ $c }}__table__content">20% of current greenhouse gases are due to tropical forest destruction</p>
+                <p class="{{ $c }}__table__content">30% of trees cut down are used for paper processing, essential business printing needs to do more than minimize paper waste</p>
+                <p class="{{ $c }}__table__content">One mature tree absorbs more than 48 pounds of carbon dioxide each year, that's enough oxygen to keep a human breathing for 2 years!</p>
+        </div>
+    </div>
+
+    <div class="{{ $c }}__image">
+        <img src="{{ .image_path }}" alt="{{ .image_alt }}">
+    </div>
+</div>

@@ -1,0 +1,33 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "left-table"
+  description: Image on right, on left a heading, text and then a 3x3 table with icons in the top row, then titles, then text.
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  section_background: "#F8F9FA"
+  subtitle: Why Forest Positive matters
+  text: Reducing print waste isn’t enough anymore. Turn your printing’s impact around from a negative environmental footprint to a positive force for ecological renewal by becoming Forest Positive. 
+  image_path: /uploads/unsplash_axE5o1Xh7_Q.png
+  image_alt: Logging area
+  icon1_path: /uploads/Icon-Light-hand-plant 1.png
+  icon2_path: /uploads/Icon-Light-plants-growth 1.png
+  icon3_path: /uploads/Icon-Light-world-certified-tick 1.png
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  section_background: "#F8F9FA"
+  subtitle: Why Forest Positive matters
+  text: Reducing print waste isn’t enough anymore. Turn your printing’s impact around from a negative environmental footprint to a positive force for ecological renewal by becoming Forest Positive. 
+  image_path: /uploads/unsplash_axE5o1Xh7_Q.png
+  image_alt: Logging area
+  icon1_path: /uploads/Icon-Light-hand-plant 1.png
+  icon2_path: /uploads/Icon-Light-plants-growth 1.png
+  icon3_path: /uploads/Icon-Light-world-certified-tick 1.png
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

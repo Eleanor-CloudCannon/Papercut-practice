@@ -1,0 +1,48 @@
+{{ $c := "c-section-image-cards-block"}}
+
+<div class="{{ $c }}" style=" background-color: {{ .section_background }}">
+    <div class="{{ $c }}__top-text">
+        <h3 class="black-text">{{ .black_heading }}</h3>
+        <h4 class="green-text">{{ .text }}</h4>
+      </div>
+ 
+      <div class="{{ $c }}__card-block">
+
+        <div class="{{ $c }}__card">
+          <div class="{{ $c }}__card__image-block">
+            <img src="{{ .image1 }}" class="{{ $c }}__card__image">
+          </div>
+          <img src="{{ .icon1 }}" class="{{ $c }}__card__icon">
+          <div class="{{ $c }}__card__text-block">
+            <h5>{{ .title1 }}</h5>
+            <p>{{ .summary1 }}</p>
+            <a href="{{ .link1 }}">Visit site</a>
+          </div>
+        </div>
+
+        <div class="{{ $c }}__card">
+          <div class="{{ $c }}__card__image-block">
+            <img src="{{ .image2 }}" class="{{ $c }}__card__image">
+          </div>
+          <img src="{{ .icon2 }}" class="{{ $c }}__card__icon">
+          <div class="{{ $c }}__card__text-block">
+            <h5>{{ .title2 }}</h5>
+            <p>{{ .summary2 }}</p>
+            <a href="{{ .link2 }}">Visit site</a>
+          </div>
+        </div>
+
+        <div class="{{ $c }}__card">
+          <div class="{{ $c }}__card__image-block">
+            <img src="{{ .image3 }}" class="{{ $c }}__card__image">
+          </div>
+          <img src="{{ .icon3 }}" class="{{ $c }}__card__icon">
+          <div class="{{ $c }}__card__text-block">
+            <h5>{{ .title3 }}</h5>
+            <p>{{ .summary3 }}</p>
+            <a href="{{ .link3 }}">Visit site</a>
+          </div>
+        </div>
+
+      </div>
+</div>

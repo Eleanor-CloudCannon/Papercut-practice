@@ -1,0 +1,49 @@
+.c-left-right-with-buttons-block {
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 96px 0px;
+
+    &__top-text {
+        text-align: center;
+        grid-column: 4/12;
+  }
+
+    &__quote-block {
+        grid-column: 1/8;
+        margin-left: 55px;
+    }
+
+    &__quote-text p {
+        font-size: 25px;
+    }
+
+    &__author p {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    &__mark {
+        color: #26A726;
+        margin: 0;
+        font-size: 100px;
+    }
+
+    &__green-button {
+        background-color: #26A726;
+        color:#FFFFFF;
+    }
+
+    &__image-block {
+        grid-column: 8/15;
+        margin-left: 60px;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+    
+    &__image-block img {
+        height: 450px;
+        margin: 10px;
+    }
+
+}

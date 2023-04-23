@@ -1,0 +1,26 @@
+{{ $c := "c-section-graph-block"}}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__text">
+        <h2 class="uppercase">{{ .uppercase }}</h2>
+        <h3 class="black-text">{{ .black_text }}</h3>
+        <p>{{ .text }}</p>
+    </div>
+    <div class="{{ $c }}__screenshot">
+        <img src="{{ .image_path }}" alt="{{ .image_alt }}">
+    </div>
+    <div class="{{ $c }}__accordian">
+        {{ range .accordian }}
+        <details>
+            <summary>
+                <img src="{{ .icon_path }}">
+                <h5>{{ .title }}</h5>
+                <span class="{{ $c }}__icon--vertical"></span>
+                <span class="{{ $c }}__icon--horizontal"></span>
+            </summary>
+            <p class="{{ $c }}__content">{{ .summary_content }}</p>
+        </details>
+        {{ end }}
+
+    </div>
+</div>

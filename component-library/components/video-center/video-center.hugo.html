@@ -1,0 +1,21 @@
+{{ $c := "c-section-video-center-block"}}
+
+<div class="white-background" style=" background-color: {{ .section_background }}">
+        <div class="{{ $c }}__text-div">
+            <h3 class="black-text">{{ .black_text }}</h3>
+            <h4 class="green-text">{{ .text }}</h4>
+        </div>
+
+        <div class="{{ $c }}__video-div">
+            <div class="{{ $c }}__video-background-left">
+                <img src="{{ .background_image_left }}" alt="background">
+            </div>
+            <div class="{{ $c }}__video-background-right">
+                <img src="{{ .background_image_right }}" alt="background">
+            </div>
+
+            <div class="{{ $c }}__video">
+                <img src="{{ .video }}" alt="video screen shot">
+            </div>
+        </div>
+</div>

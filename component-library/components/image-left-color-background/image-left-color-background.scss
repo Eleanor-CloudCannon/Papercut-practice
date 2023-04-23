@@ -1,0 +1,40 @@
+
+.c-section-image-left-color-background-block {
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 96px 0px;
+    &__background-square {
+        grid-row: 1;
+        border-radius: 10px;
+        grid-column: 2 / 14;
+        height: 400px;
+        align-self: center;}
+    
+    &__image-left {
+        grid-row: 1;
+        grid-column: 2 / 8;
+        align-self: center;
+        justify-self: center;
+        img {
+            padding: 40px;
+        }
+    }
+    &__right {
+        grid-row: 1;
+        grid-column: 8 / 13;
+        padding-left: 64px;
+        align-self: center;
+        button {
+            background-color: #26A726;
+            color: #FFFFFF;
+        }
+    }
+    &__heading {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #3B3B3D;
+    }
+}

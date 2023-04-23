@@ -1,0 +1,96 @@
+.c-section-graph-block {
+    background-color: #FFFFFF;
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 96px 0px;
+
+        &__text {
+            text-align: center;
+            grid-column: 4/12
+        }
+
+        &__screenshot {
+            grid-column: 1/8;
+            margin-left: 55px;
+            margin-top: 60px;
+        }
+
+        &__accordian {
+            grid-column: 9/14;
+            margin-top: 60px;
+            margin-left: 20px;
+            display: flex;
+            display: block;
+                p {
+                    color: #3B3B3D;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding-left: 40px;
+                }
+        }
+
+    details {
+            align-self: center;
+            border-bottom: solid 1px #D9D9DC;
+            border-top: solid 1px #D9D9DC;
+            &::marker {
+                display: none;
+            }
+            &[open] {
+               background-color: #F3FAF4; 
+                .c-section-graph-block__icon--vertical{
+                    height: 0;
+                }
+            }
+        }
+
+    summary {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            h5 {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16.0355px;
+                display: inline;
+                margin-left: 60px;
+            }
+            &::-webkit-details-marker {
+                display:none;
+            }
+            &::marker{
+                display: none;
+                }
+            &:hover{
+                cursor: pointer;
+                }
+            img{
+                height: 32px;
+                position: absolute;
+                left: 15px;
+                }
+            .c-section-graph-block__icon--horizontal{
+            transform: rotate(90deg);
+        }
+        span{
+            position: absolute;
+            display: block;
+            height: 20px;
+            width: 4px;
+            right: 32px;
+            background-color: #3B3B3D;
+            border-radius: 2px;
+            transition: all 0.2s ease-in-out;
+        }   
+    }
+
+    &__content{
+        padding-right: 20px;
+    }
+       
+}

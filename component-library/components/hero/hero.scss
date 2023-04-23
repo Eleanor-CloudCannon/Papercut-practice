@@ -1,0 +1,42 @@
+.c-hero-block {
+    background-color: #FFFFFF;
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 0px 0px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+    &__background img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+     }
+
+    &__background{
+        height: 450px;
+        grid-column: 1/15;
+        grid-row: 1;
+    }
+    
+    &__text-section {
+        margin-top: 96px;
+        grid-row: 1;
+        grid-column: 2/7
+    }
+
+    &__text-section h3 {
+        color: #FFFFFF;
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    &__green-button {
+        background-color: #26A726;
+        color:#FFFFFF;
+        margin-bottom: 92px;
+    }
+
+}

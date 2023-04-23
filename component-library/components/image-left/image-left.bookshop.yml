@@ -1,0 +1,37 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "image-left"
+  description: Image on the left side, text on the right. Green uppercase text, question, main text.
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  section_background: "#F8F9FA"
+  uppercase: Forest positive printing
+  question: What is PaperCut Grows?
+  text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
+   
+
+   Available with our flagship solutions PaperCut MF and PaperCut Hive, this easy-to-use in-product tool converts your documents printed into trees planted via a small up-front investment per printer.   
+   
+
+   We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  section_background: "#F8F9FA"
+  uppercase: Forest positive printing
+  question: What is PaperCut Grows?
+  text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
+   
+
+   Available with our flagship solutions PaperCut MF and PaperCut Hive, this easy-to-use in-product tool converts your documents printed into trees planted via a small up-front investment per printer.   
+   
+
+   We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

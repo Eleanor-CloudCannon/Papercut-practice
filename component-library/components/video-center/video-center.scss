@@ -1,0 +1,35 @@
+.c-section-video-center-block {
+    width: 100%; 
+    grid-template-columns: var(--twelve-column-grid);
+    display: grid;
+    padding: 96px 0px;
+
+        &__text-div{
+            text-align: center;
+            grid-column: 4/12
+        }
+
+        &__video-div{
+            grid-column: 1/15;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        &__video-background-left{
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        &__video-background-right{
+            grid-column: 2;
+            grid-row: 1;
+            justify-self: flex-end
+        }
+
+        &__video{
+            grid-column: 1/3;
+            grid-row: 1;
+            justify-self: center;
+            align-self: center;
+        }
+}

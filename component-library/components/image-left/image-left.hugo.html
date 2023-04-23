@@ -1,0 +1,13 @@
+{{ $c := "c-section-image-left-block"}}
+
+<div class="{{ $c }}" style=" background-color: {{ .section_background }}">
+        <div class="{{ $c }}__image-left">
+            <img src="{{ .image_path }}" alt="{{ .image_alt }}" style=" background-color: {{ .image_background }}" >
+        </div>
+
+        <div class="{{ $c }}__right">
+            <h2 class="{{ $c }}__uppercase">{{ .uppercase }}</h2>
+            <h4 class="{{ $c }}__subtitle">{{ .question }}</h4>
+            <p>{{ .text | markdownify }}</p>
+    </div>
+</div>

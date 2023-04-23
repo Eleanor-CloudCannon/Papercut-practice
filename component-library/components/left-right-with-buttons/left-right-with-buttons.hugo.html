@@ -1,0 +1,26 @@
+{{ $c := "c-left-right-with-buttons-block"}}
+
+<div class="{{ $c }}" style=" background-color: {{ .section_background }}">
+  <div class="{{ $c }}__top-text">
+    <h3 class="black-text">{{ .black_heading }}</h3>
+    <h4 class="green-text">{{ .text }}</h4>
+  </div>
+
+  <div class="{{ $c }}__quote-block">
+    <h2 class="{{ $c }}__mark">"</h2>
+    <div class="{{ $c }}__quote-text">
+        <p>{{ .quote }}</p>
+    </div>
+    <div class="{{ $c }}__author">
+        <p>- {{ .quote_author }}</p>
+    </div>
+    <button class="{{ $c }}__green-button">{{ .green_button }}</button>
+    <button>{{ .white_button }}</button>
+  </div>
+
+  <div class="{{ $c }}__image-block">
+    <img src="{{ .image_path1 }}" alt="{{ .image_alt1 }}">
+    <img src="{{ .image_path2 }}" alt="{{ .image_alt2 }}">
+  </div>
+
+</div>                                                   

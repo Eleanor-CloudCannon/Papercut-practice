@@ -1,0 +1,14 @@
+{{ $c := "c-hero-block" }}
+
+<div class="{{ $c }}">
+  <div class="{{ $c }}__background">
+    <img src="{{ .background_image }}">
+  </div>
+  
+  <div class="{{ $c }}__text-section">
+    <img src="{{ .logo_path }}">
+    <h3>{{ .subtitle }}</h3>
+    <button class="{{ $c }}__green-button">{{ .button }}</button>
+  </div>
+
+</div>                                           
