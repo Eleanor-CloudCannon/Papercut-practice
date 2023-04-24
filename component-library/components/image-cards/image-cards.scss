@@ -6,8 +6,11 @@
     
     &__top-text {
         text-align: center;
-        grid-column: 4/12;
+        grid-column: 2/14;
         display: block;
+        @media screen and (max-width: 1200px){
+          text-align: center;
+        }
   }
     
   &__card-block {
@@ -20,7 +23,6 @@
     &__card {
       background-color: #FFFFFF;
       border-radius: 10px;
-      // border: solid 1px rgb(185, 181, 181);
       box-shadow: 0px 12px 20px rgba(27, 27, 29, 0.15);
       width: 350px;
       height: 520px;

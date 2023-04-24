@@ -6,12 +6,19 @@
 
     &__top-text {
         text-align: center;
-        grid-column: 4/12;
+        grid-column: 2/14;
+        @media screen and (max-width: 1200px){
+            grid-row: 1;
+        }
   }
 
     &__quote-block {
-        grid-column: 1/8;
-        margin-left: 55px;
+        grid-column: 2/8;
+        @media(max-width: 1200px){
+          grid-column: 1/14;
+          margin-left: 55px; 
+          grid-row: 3;
+        }
     }
 
     &__quote-text p {
@@ -32,13 +39,20 @@
     &__green-button {
         background-color: #26A726;
         color:#FFFFFF;
+        @media(max-width: 1200px){
+            margin-bottom: 20px;
+        }
     }
 
     &__image-block {
-        grid-column: 8/15;
-        margin-left: 60px;
+        grid-column: 8/14;
         grid-template-columns: 1fr 1fr;
         display: grid;
+        @media(max-width: 1200px){
+            grid-column: 1/15;
+            margin-left: 60px;
+            grid-row: 2;
+        }
     }
     
     &__image-block img {

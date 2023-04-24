@@ -4,18 +4,31 @@
     grid-template-columns: var(--twelve-column-grid);
     display: grid;
     padding: 96px 0px;
+    @media screen and (max-width: 766px){
+        padding: 32px 0px 64px 0px;
+    }
     &__image-left {
         grid-column: 2 / 8;
         align-self: center;
-            img {
+            
+        @media screen and (max-width: 766px){
+            grid-column: 2/14;
+            grid-row: 2;
+            padding: 0;
+        }
+        img {
                 padding: 10px;
-                height: 314px;
-                width: 558px;
             }
+
     }
     &__right {
         grid-column: 8 / 14;
         padding-left: 64px;
+        @media screen and (max-width: 766px){
+            grid-column: 2/14;
+            grid-row: 1;
+            padding: 0;
+        }
     }
     &__subtitle {
         font-family: 'Barlow', sans-serif;

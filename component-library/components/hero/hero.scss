@@ -7,6 +7,7 @@
     margin-top: -10px;
     margin-bottom: -10px;
 
+
     &__background img{
     width: 100vw;
     height: 100%;
@@ -16,13 +17,20 @@
     &__background{
         height: 450px;
         grid-column: 1/15;
-        grid-row: 1;
+        grid-row: 1;  
+    }
+    @media screen and (max-width:875px){
+       height: auto;
     }
     
     &__text-section {
         margin-top: 96px;
         grid-row: 1;
-        grid-column: 2/7
+        grid-column: 2/7;
+        @media screen and (max-width:875px){
+            grid-column: 2/14;
+            text-align: center;
+        }
     }
 
     &__text-section h3 {
