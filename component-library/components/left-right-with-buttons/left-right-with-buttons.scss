@@ -16,7 +16,7 @@
         grid-column: 2/8;
         @media(max-width: 1200px){
           grid-column: 1/14;
-          margin-left: 55px; 
+          margin-left: 10px; 
           grid-row: 3;
         }
     }
@@ -50,14 +50,14 @@
         display: grid;
         @media(max-width: 1200px){
             grid-column: 1/15;
-            margin-left: 60px;
             grid-row: 2;
         }
+        img {
+        padding: 10px;
+        max-width: 90%;
+    }
+        
     }
     
-    &__image-block img {
-        height: 450px;
-        margin: 10px;
-    }
 
 }

@@ -18,6 +18,9 @@
      justify-self: center;
      display: grid;
      grid-template-columns: auto auto auto;
+     @media screen and (max-width: 1200px){
+      grid-template-columns: 1fr;
+     }
   }
 
     &__card {

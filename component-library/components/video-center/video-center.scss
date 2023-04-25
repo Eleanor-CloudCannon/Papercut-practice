@@ -17,6 +17,7 @@
             @media (max-width: 1200px){
                 grid-column: 1/15;
             }
+            img{max-width: 80%}
         }
 
         &__video-background-left{
@@ -27,7 +28,8 @@
         &__video-background-right{
             grid-column: 2;
             grid-row: 1;
-            justify-self: flex-end
+            justify-self: flex-end;
+            
         }
 
         &__video{
@@ -35,7 +37,11 @@
             grid-row: 1;
             justify-self: center;
             align-self: center;
-          @media  screen and  (max-width: 1200px){
+            img{ 
+                max-width: 100%;
+                justify-self:center;
+        }
+                @media  screen and  (max-width: 1200px){
           } 
         } 
 }

@@ -20,16 +20,22 @@
         grid-column: 2 / 8;
         align-self: center;
         justify-self: center;
+        @media screen and (max-width:1200px){
+            grid-column: 1/14;
+            grid-row: 2;
+        } 
         img {
             padding: 40px;
+            max-width: 100%;
+            @media screen and (max-width:1200px){
+                padding: 0;
+            }
         }
-        @media screen and (max-width:1200px){
-            grid-row: 2;
-        }
+
     }
     &__right {
         grid-row: 1;
-        grid-column: 8 / 13;
+        grid-column: 8 / 14;
         padding-left: 64px;
         align-self: center;
         button {

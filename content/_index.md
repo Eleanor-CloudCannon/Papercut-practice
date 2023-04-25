@@ -38,8 +38,15 @@ content_blocks:
   image_path: /uploads/unsplash_axE5o1Xh7_Q.png
   image_alt: Logging area
   icon1_path: /uploads/Icon-Light-hand-plant 1.png
+  title1: Deforestation
+  content1: 20% of current greenhouse gases are due to tropical forest destruction
   icon2_path: /uploads/Icon-Light-plants-growth 1.png
+  title2: Print Footprint
+  content2: 30% of trees cut down are used for paper processing, essential business printing needs to do more than minimize paper waste
   icon3_path: /uploads/Icon-Light-world-certified-tick 1.png
+  title3: Climate change
+  content3: One mature tree absorbs more than 48 pounds of carbon dioxide each year, that's enough oxygen to keep a human breathing for 2 years!
+
 
 - _bookshop_name: "image-accordian"
   section_background: "#FFFFFF"
