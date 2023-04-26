@@ -10,8 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#F8F9FA"
-  subtitle: Forest positive printing
-  question: What is PaperCut Grows?
+  uppercase: Forest positive printing
+  subtitle: What is PaperCut Grows?
   text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
    
 
@@ -35,10 +35,5 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  section_background_color:
-    type: select
-    options:
-      values:
-        - "#F8F9FA"
-        - "#FFFFFF"
+
 
