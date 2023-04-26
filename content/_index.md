@@ -1,24 +1,21 @@
 ---
 title: Home
 content_blocks:
-  - _bookshop_name: hero
-    background_image: /uploads/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg
-    logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
-    subtitle: Grow your sustainability story with Forest Positive printing
-    button: Get Papercut grows
-  - _bookshop_name: image-left
-    section_background_color: '#f8f9fa'
-    uppercase: Forest positive printing
-    subtitle: What is PaperCut Grows?
-    text: >-
-      PaperCut Grows is our sustainability program that transforms your
-      essential documents into Forest Positive printing.
+- _bookshop_name: "hero"
+  background_image: /uploads/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg
+  logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
+  subtitle: Grow your sustainability story with Forest Positive printing
+  button: Get Papercut grows
 
+- _bookshop_name: "image-left"
+  section_background_color: "#F8F9FA"
+  uppercase: Forest positive printing
+  subtitle: What is PaperCut Grows?
+  text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
+   
 
-      Available with our flagship solutions PaperCut MF and PaperCut Hive, this
-      easy-to-use in-product tool converts your documents printed into trees
-      planted via a small up-front investment per printer.
-
+   Available with our flagship solutions PaperCut MF and PaperCut Hive, this easy-to-use in-product tool converts your documents printed into trees planted via a small up-front investment per printer.   
+   
 
    We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
 
@@ -88,18 +85,17 @@ content_blocks:
   text: We leverage our industry-leading expertise to estimate your business printing up front. 
 
 
-      Before you even press print, we calculate how many pieces of paper your
-      printing uses. We then convert that into a figure of trees to plant.
+    Before you even press print, we calculate how many pieces of paper your printing uses. We then convert that into a figure of trees to plant.
 
 
-      Our non-profit tree planting partners then plant your trees in a global
-      reforestation tree planting project hand-picked by you.
+    Our non-profit tree planting partners then plant your trees in a global reforestation tree planting project hand-picked by you. 
 
 
-      You then print knowing that all those print jobs aren’t a deficit on the
-      planet, because you’ve already invested in an environmental surplus with
-      Forest Positive printing.
+    You then print knowing that all those print jobs aren’t a deficit on the planet, because you’ve already invested in an environmental surplus with Forest Positive printing. 
 
+
+    Then once you approach your original investment, it’s time to reinvest and purchase more trees to stay Forest Positive.
+ 
 
   image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
   image_alt: Hand using PaperCuts
