@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "image-accordian"
   description: section with an title and text section at the top, then an image on one side and accordian with icons on the othe side.
-  icon:
+  icon: view_headline
   tags: []
 
 # Defines the structure of this component, as well as the default values

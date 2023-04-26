@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "left-right-with-buttons"
   description: Heading area with subtitle. Quote and buttons on left, two images on the right.
-  icon:
+  icon: vertical_split
   tags: []
 
 # Defines the structure of this component, as well as the default values

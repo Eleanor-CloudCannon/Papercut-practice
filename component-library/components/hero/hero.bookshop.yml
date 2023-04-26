@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "hero"
   description: Hero section with an image for the background, logo, heading and button.
-  icon:
+  icon: title
   tags: []
 
 # Defines the structure of this component, as well as the default values

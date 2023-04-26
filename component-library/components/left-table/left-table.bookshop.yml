@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "left-table"
   description: Image on right, on left a heading, text and then a 3x3 table with icons in the top row, then titles, then text.
-  icon:
+  icon: grid_view
   tags: []
 
 # Defines the structure of this component, as well as the default values

@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "image-left-color-background"
   description: Image on the left side, text on the right. A background colour behind the image and text, button.
-  icon:
+  icon: vertical_split
   tags: []
 
 # Defines the structure of this component, as well as the default values

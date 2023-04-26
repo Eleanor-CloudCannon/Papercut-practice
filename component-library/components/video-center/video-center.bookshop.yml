@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "video-center"
   description: Heading and subheading then background image with a video on top.
-  icon:
+  icon: play_arrow
   tags: []
 
 # Defines the structure of this component, as well as the default values

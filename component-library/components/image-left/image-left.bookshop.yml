@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "image-left"
   description: Image on the left side, text on the right. Green uppercase text, question, main text.
-  icon:
+  icon: vertical_split
   tags: []
 
 # Defines the structure of this component, as well as the default values
