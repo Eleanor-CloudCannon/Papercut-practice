@@ -14,8 +14,10 @@ content_blocks:
   text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
    
 
-   Available with our flagship solutions PaperCut MF and PaperCut Hive, this easy-to-use in-product tool converts your documents printed into trees planted via a small up-front investment per printer.   
-   
+      Available with our flagship solutions PaperCut MF and PaperCut Hive, this
+      easy-to-use in-product tool converts your documents printed into trees
+      planted via a small up-front investment per printer.
+
 
    We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
 
@@ -85,69 +87,80 @@ content_blocks:
   text: We leverage our industry-leading expertise to estimate your business printing up front. 
 
 
-    Before you even press print, we calculate how many pieces of paper your printing uses. We then convert that into a figure of trees to plant.
+      Before you even press print, we calculate how many pieces of paper your
+      printing uses. We then convert that into a figure of trees to plant.
 
 
-    Our non-profit tree planting partners then plant your trees in a global reforestation tree planting project hand-picked by you. 
+      Our non-profit tree planting partners then plant your trees in a global
+      reforestation tree planting project hand-picked by you.
 
 
-    You then print knowing that all those print jobs aren’t a deficit on the planet, because you’ve already invested in an environmental surplus with Forest Positive printing. 
+      You then print knowing that all those print jobs aren’t a deficit on the
+      planet, because you’ve already invested in an environmental surplus with
+      Forest Positive printing.
 
 
-    Then once you approach your original investment, it’s time to reinvest and purchase more trees to stay Forest Positive.
- 
-
-  image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
-  image_alt: Hand using PaperCuts
-  image_background: white
-
-- _bookshop_name: "left-right-with-buttons"
-  section_background_color: "#FFFFFF"
-  black_heading: What our customers say
-  text: Look at all these prominent organizations who’ve made their printing Forest Positive
-  quote: The benefit of PaperCut is really in its ease of use. It's the right choice if you are looking for something with ease of application and an easy user interface.
-  quote_author: C.Y Tung, co-founder of the Institute for Shipboard Education
-  green_button: Read our customer stories
-  white_button: View our testimonials
-  image_path1: /uploads/william-topa-x9AZgR25G-k-unsplash.jpg
-  image_alt1: Construction area
-  image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
-  image_alt2: Shipboard Education students studying
-
-- _bookshop_name: "image-cards"
-  section_background_color: "#F8F9FA"
-  black_heading: Who does the planting?
-  text: Meet some of the amazing non-profit and NGOs on the field who are planting trees on your behalf.
-  image1: /uploads/unsplash_gHho4FE4Ga0.png
-  icon1: /uploads/image 16.png
-  title1: PrintReleaf
-  summary1: A certification system and software platform for automated global reforestation
-  link1: "/"
-  image2: /uploads/Background.png
-  icon2: /uploads/image 16-2.png
-  title2: One Tree Planted
-  summary2: Announced targets for reducing carbon emissions and climate partnerships to work on ocean conservation and forest restoration 
-  link2: "/"
-  image3: /uploads/unsplash_19SC2oaVZW0.png
-  icon3: /uploads/image 16-3.png
-  title3: Konica Minolta
-  summary3: Enabling carbon neutrality program
-  link3: "/"
-    
-- _bookshop_name: "image-left-color-background"
-  section_background_color: "#FFFFFF"
-  heading: How to get PaperCut Grows
-  text: Getting PaperCut Grows is easy. Just get in touch with one of our Authorised Partners and they will happily get you ready.
-  button_text: Find out how
-  image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
-  image_alt: People planting trees
-  image_background_color: "#F3FAF4"
-
-- _bookshop_name: "call-to-action"
-  section_background_color: "#26A726"
-  heading: Ready to get started?
-  text: Compare our products or dive a little deeper into product solutions.
-  white_button: Compare our products
-  green_button: Try for free
-
+      Then once you approach your original investment, it’s time to reinvest and
+      purchase more trees to stay Forest Positive.
+    image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
+    image_alt: Hand using PaperCuts
+    image_background: white
+  - _bookshop_name: left-right-with-buttons
+    section_background_color: '#FFFFFF'
+    black_heading: What our customers say
+    text: >-
+      Look at all these prominent organizations who’ve made their printing
+      Forest Positive
+    quote: >-
+      The benefit of PaperCut is really in its ease of use. It's the right
+      choice if you are looking for something with ease of application and an
+      easy user interface.
+    quote_author: C.Y Tung, co-founder of the Institute for Shipboard Education
+    green_button: Read our customer stories
+    white_button: View our testimonials
+    image_path1: /uploads/william-topa-x9AZgR25G-k-unsplash.jpg
+    image_alt1: Construction area
+    image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
+    image_alt2: Shipboard Education students studying
+  - _bookshop_name: image-cards
+    section_background_color: '#F8F9FA'
+    black_heading: Who does the planting?
+    text: >-
+      Meet some of the amazing non-profit and NGOs on the field who are planting
+      trees on your behalf.
+    image1: /uploads/unsplash_gHho4FE4Ga0.png
+    icon1: /uploads/image 16.png
+    title1: PrintReleaf
+    summary1: >-
+      A certification system and software platform for automated global
+      reforestation
+    link1: /
+    image2: /uploads/Background.png
+    icon2: /uploads/image 16-2.png
+    title2: One Tree Planted
+    summary2: >-
+      Announced targets for reducing carbon emissions and climate partnerships
+      to work on ocean conservation and forest restoration
+    link2: /
+    image3: /uploads/unsplash_19SC2oaVZW0.png
+    icon3: /uploads/image 16-3.png
+    title3: Konica Minolta
+    summary3: Enabling carbon neutrality program
+    link3: /
+  - _bookshop_name: image-left-color-background
+    section_background_color: '#FFFFFF'
+    heading: How to get PaperCut Grows
+    text: >-
+      Getting PaperCut Grows is easy. Just get in touch with one of our
+      Authorised Partners and they will happily get you ready.
+    button_text: Find out how
+    image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
+    image_alt: People planting trees
+    image_background_color: '#F3FAF4'
+  - _bookshop_name: call-to-action
+    section_background_color: '#26A726'
+    heading: Ready to get started?
+    text: Compare our products or dive a little deeper into product solutions.
+    white_button: Compare our products
+    green_button: Try for free
 ---
