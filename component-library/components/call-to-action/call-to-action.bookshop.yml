@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "call-to-action"
   description: Call to action section with two buttons.
-  icon:
+  icon: call_to_action
   tags: []
 
 # Defines the structure of this component, as well as the default values
