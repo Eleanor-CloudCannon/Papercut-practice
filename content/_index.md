@@ -193,10 +193,4 @@ content_blocks:
     text: Compare our products or dive a little deeper into product solutions.
     white_button: Compare our products
     green_button: Try for free
-  - _bookshop_name: call-to-action
-    section_background_color: '#c62727'
-    heading: Test
-    text: Test text
-    white_button: white
-    green_button: green
 ---
