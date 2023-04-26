@@ -21,7 +21,7 @@ content_blocks:
 
   image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
   image_alt: People planting trees
-  image_background: none
+  image_background_color: none
 
 - _bookshop_name: "video-center"
   section_background_color: "#FFFFFF"
@@ -99,7 +99,7 @@ content_blocks:
 
   image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
   image_alt: Hand using PaperCuts
-  image_background: white
+  image_background_color: white
 
 - _bookshop_name: "left-right-with-buttons"
   section_background_color: "#FFFFFF"

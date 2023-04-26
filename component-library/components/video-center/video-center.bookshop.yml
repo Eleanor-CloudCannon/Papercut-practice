@@ -27,3 +27,9 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  section_background_color:
+    type: select
+    options:
+      values:
+        - "#F8F9FA"
+        - "#FFFFFF"
