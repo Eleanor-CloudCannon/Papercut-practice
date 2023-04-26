@@ -9,7 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  section_background: "#FFFFFF"
+  section_background_color: "#FFFFFF"
   black_heading: What our customers say
   text: Look at all these prominent organizations who’ve made their printing Forest Positive
   quote: The benefit of PaperCut is really in its ease of use. It's the right choice if you are looking for something with ease of application and an easy user interface.
@@ -23,7 +23,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  section_background: "#FFFFFF"
+  section_background_color: "#FFFFFF"
   black_heading: What our customers say
   text: Look at all these prominent organizations who’ve made their printing Forest Positive
   quote: The benefit of PaperCut is really in its ease of use. It's the right choice if you are looking for something with ease of application and an easy user interface.

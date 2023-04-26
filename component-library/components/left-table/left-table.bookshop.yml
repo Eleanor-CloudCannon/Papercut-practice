@@ -9,7 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  section_background: "#F8F9FA"
+  section_background_color: "#F8F9FA"
   subtitle: Why Forest Positive matters
   text: Reducing print waste isn’t enough anymore. Turn your printing’s impact around from a negative environmental footprint to a positive force for ecological renewal by becoming Forest Positive. 
   image_path: /uploads/unsplash_axE5o1Xh7_Q.png
@@ -20,7 +20,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  section_background: "#F8F9FA"
+  section_background_color: "#F8F9FA"
   subtitle: Why Forest Positive matters
   text: Reducing print waste isn’t enough anymore. Turn your printing’s impact around from a negative environmental footprint to a positive force for ecological renewal by becoming Forest Positive. 
   image_path: /uploads/unsplash_axE5o1Xh7_Q.png
