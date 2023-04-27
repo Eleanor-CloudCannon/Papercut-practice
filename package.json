@@ -1,0 +1,25 @@
+{
+  "name": "papercuts-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleanor-CloudCannon/Papercut-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eleanor-CloudCannon/Papercut-practice/issues"
+  },
+  "homepage": "https://github.com/Eleanor-CloudCannon/Papercut-practice#readme",
+  "dependencies": {
+    "@bookshop/browser": "3.4.1",
+    "@bookshop/generate": "3.4.1",
+    "@bookshop/hugo-engine": "3.4.1"
+  }
+}
