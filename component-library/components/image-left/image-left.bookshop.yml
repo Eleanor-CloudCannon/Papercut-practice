@@ -46,4 +46,4 @@ _inputs:
         - "#F8F9FA"
         - "#FFFFFF"
   text:
-    type: markup
+    type: markdown
