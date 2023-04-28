@@ -19,7 +19,10 @@ blueprint:
    
 
    We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
-
+  image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
+  image_alt: People planting trees
+  image_background_color: none
+  image_alignment: "left"
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   section_background_color: "#F8F9FA"
@@ -32,9 +35,18 @@ preview:
    
 
    We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
-
+  image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
+  image_alt: People planting trees
+  image_background_color: none
+  image_alignment: "left"
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  image_alignment:
+    type: select
+    options:
+      values: 
+       - "left"
+       - "right"
   section_background_color:
     type: select
     options:
