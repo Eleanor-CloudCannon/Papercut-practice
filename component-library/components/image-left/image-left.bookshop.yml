@@ -45,4 +45,5 @@ _inputs:
       values:
         - "#F8F9FA"
         - "#FFFFFF"
-
+  text:
+    type: markup
