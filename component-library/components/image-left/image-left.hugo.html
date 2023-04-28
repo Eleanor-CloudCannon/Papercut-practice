@@ -3,7 +3,7 @@
 <div class="{{ $c }}" style=" background-color: {{ .section_background_color }}">
     {{ if eq .image_alignment "left"}}
         <div class="{{ $c }}__image-left">
-            <img src="{{ .image_path }}" alt="{{ .image_alt }}" style=" background-color: {{ .image_background_color }}" >
+            <img src="{{ .image_path }}" alt="{{ .image_alt }}" >
         </div>
 
         <div class="{{ $c }}__right">
@@ -21,7 +21,7 @@
     </div>
 
     <div class="{{ $c }}__image-right">
-        <img src="{{ .image_path }}" alt="{{ .image_alt }}" style=" background-color: {{ .image_background_color }}" >
+        <img src="{{ .image_path }}" alt="{{ .image_alt }}" >
     </div>
 
 {{ end }}
