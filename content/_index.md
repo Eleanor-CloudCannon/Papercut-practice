@@ -6,7 +6,7 @@ content_blocks:
     logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
     subtitle: Grow your sustainability story with Forest Positive printing
     button: Get Papercut grows
-  - _bookshop_name: image-left
+  - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
     uppercase: Forest positive printing
     subtitle: What is PaperCut Grows?
@@ -34,7 +34,7 @@ content_blocks:
     background_image_left: /uploads/image 15.png
     background_image_right: /uploads/image 14.png
     video: /uploads/Screen Shot 2022-03-16 at 1.36 1.png
-  - _bookshop_name: left-table
+  - _bookshop_name: left-right-tiles
     section_background_color: '#F8F9FA'
     subtitle: Why Forest Positive matters
     text: >-
@@ -56,7 +56,7 @@ content_blocks:
     content3: >-
       One mature tree absorbs more than 48 pounds of carbon dioxide each year,
       that's enough oxygen to keep a human breathing for 2 years!
-  - _bookshop_name: image-accordian
+  - _bookshop_name: left-right-accordian
     section_background_color: '#FFFFFF'
     uppercase: The benefits
     black_text: Why PaperCut Grows is good for your bottom line, and the planet
@@ -108,7 +108,7 @@ content_blocks:
           Customers personally choose a planting project close to their
           community, their people, and their hearts, driving positive
           environmental change on their front doorstep.
-  - _bookshop_name: image-left
+  - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
     uppercase: Learn more
     subtitle: How does PaperCut Grows work?

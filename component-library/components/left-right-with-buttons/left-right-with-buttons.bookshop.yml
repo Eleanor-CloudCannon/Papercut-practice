@@ -3,23 +3,23 @@ spec:
   structures:
     - content_blocks
   label: "left-right-with-buttons"
-  description: Heading area with subtitle. Quote and buttons on left, two images on the right.
+  description: Quote block. Heading area with subtitle. Quote and buttons on left, two images on the right.
   icon: vertical_split
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#FFFFFF"
-  black_heading: What our customers say
-  text: Look at all these prominent organizations who’ve made their printing Forest Positive
-  quote: The benefit of PaperCut is really in its ease of use. It's the right choice if you are looking for something with ease of application and an easy user interface.
-  quote_author: C.Y Tung, co-founder of the Institute for Shipboard Education
-  green_button: Read our customer stories
-  white_button: View our testimonials
+  black_heading: 
+  text: 
+  quote: 
+  quote_author: 
+  green_button: Green button
+  white_button: White button
   image_path1: /uploads/william-topa-x9AZgR25G-k-unsplash.jpg
-  image_alt1: Construction area
+  image_alt1: 
   image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
-  image_alt2: Shipboard Education students studying
+  image_alt2: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

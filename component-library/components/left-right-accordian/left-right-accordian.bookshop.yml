@@ -2,41 +2,41 @@
 spec:
   structures:
     - content_blocks
-  label: "image-accordian"
-  description: section with an title and text section at the top, then an image on one side and accordian with icons on the othe side.
+  label: "left-right-accordian"
+  description: Accordian section. A title and text section at the top, then an image on one side and accordian with icons on the other side.
   icon: view_headline
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#FFFFFF"
-  uppercase: The benefits
-  black_text: Why PaperCut Grows is good for your bottom line, and the planet
-  text: Grows is an easy and affordable way to make business printing Forest Positive. Plant more trees than your printing uses, maximize your climate action, and directly invest in reforestation.
+  uppercase: 
+  black_text: 
+  text: 
   image_path: /uploads/image 19.png
-  image_alt: Screenshot of dashboard.
+  image_alt: 
   accordian:
     - icon_path: /uploads/Icon-Light-cog-tick 1.png
-      title: It's easy
-      summary_content: It’s simple to get - you literally just tick a box. It’s simple to use, our print management software auto-tracks your print and planting volumes. It’s simple to start, there’s no up-front carbon emissions tracking.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-money-plant-growth 1.png
-      title: It's affordable
-      summary_content: It’s an inexpensive bolt-on to your PaperCut MF or PaperCut Hive license.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-certificate-award 1.png
-      title: It's legit
-      summary_content: Coding’s what we do best. All the tree planting is handled by our official partner, non-profit reforestation organization, One Tree Planted.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-tools 1.png
-      title: It ROIs itself
-      summary_content: The in-product Marketing Toolkit equips you with website components, social media content, and other creative assets for you to share your sustainability story with customers, current and prospective employees, regulators, and stakeholders.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-discover-search-heart 1.png
-      title: It's guilt-free
-      summary_content: Staff can print without worrying about the environmental impact, because all their printing is a positive force for ecological renewal.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-charity-world-care 1.png
-      title: It's real impact
-      summary_content: Tree planting directly combats climate change with a positive impact, not just neutral greenwashing with credits from an existing forest.
+      title: 
+      summary_content: 
     - icon_path: /uploads/Icon-Light-tree-environment 1.png
-      title: It's personal
-      summary_content: Customers personally choose a planting project close to their community, their people, and their hearts, driving positive environmental change on their front doorstep.
+      title: 
+      summary_content: 
  
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

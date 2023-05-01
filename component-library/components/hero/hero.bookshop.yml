@@ -11,8 +11,8 @@ spec:
 blueprint:
   background_image: /uploads/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg
   logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
-  subtitle: Grow your sustainability story with Forest Positive printing
-  button: Get Papercut grows
+  subtitle: 
+  button: Button text
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

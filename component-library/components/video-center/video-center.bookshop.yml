@@ -3,15 +3,15 @@ spec:
   structures:
     - content_blocks
   label: "video-center"
-  description: Heading and subheading then background image with a video on top.
+  description: Video area with image background. Heading and subheading then background image with a video on top.
   icon: play_arrow
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#FFFFFF"
-  black_text: Forest Positive printing with PaperCut Grows
-  text: Just reducing waste isn’t enough anymore. Turn your printing’s impact around by becoming Forest Positive.
+  black_text: 
+  text: 
   background_image_left:  /uploads/image 15.png
   background_image_right: /uploads/image 14.png
   video: /uploads/Screen Shot 2022-03-16 at 1.36 1.png
