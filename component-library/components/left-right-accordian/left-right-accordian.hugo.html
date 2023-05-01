@@ -1,15 +1,16 @@
 {{ $c := "c-section-graph-block"}}
 
 <div class="{{ $c }}" style=" background-color: {{ .section_background_color }}">
+    {{ if eq .image_alignment "left"}}
     <div class="{{ $c }}__text">
-        <h2 class="uppercase">{{ .uppercase }}</h2>
-        <h3 class="black-text">{{ .black_text }}</h3>
+        <h2 class="uppercase">{{ .title }}</h2>
+        <h3 class="black-text">{{ .heading }}</h3>
         <p>{{ .text }}</p>
     </div>
-    <div class="{{ $c }}__screenshot">
+    <div class="{{ $c }}__image_left">
         <img src="{{ .image_path }}" alt="{{ .image_alt }}">
     </div>
-    <div class="{{ $c }}__accordian">
+    <div class="{{ $c }}__accordian_right">
         {{ range .accordian }}
         <details>
             <summary>
@@ -21,6 +22,33 @@
             <p class="{{ $c }}__content">{{ .summary_content }}</p>
         </details>
         {{ end }}
-
     </div>
+
+    {{ else }}
+
+    <div class="{{ $c }}__text">
+        <h2 class="uppercase">{{ .title }}</h2>
+        <h3 class="black-text">{{ .heading }}</h3>
+        <p>{{ .text }}</p>
+    </div>
+
+    <div class="{{ $c }}__accordian_left">
+        {{ range .accordian }}
+        <details>
+            <summary>
+                <img src="{{ .icon_path }}">
+                <h5>{{ .title }}</h5>
+                <span class="{{ $c }}__icon--vertical"></span>
+                <span class="{{ $c }}__icon--horizontal"></span>
+            </summary>
+            <p class="{{ $c }}__content">{{ .summary_content }}</p>
+        </details>
+        {{ end }}
+    </div>
+
+    <div class="{{ $c }}__image_right">
+        <img src="{{ .image_path }}" alt="{{ .image_alt }}">
+    </div>
+
+    {{ end }}
 </div>

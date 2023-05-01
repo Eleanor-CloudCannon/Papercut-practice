@@ -10,8 +10,9 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#FFFFFF"
-  uppercase: 
-  black_text: 
+  image_alignment: "left"
+  title: 
+  heading: 
   text: 
   image_path: /uploads/image 19.png
   image_alt: 
@@ -42,8 +43,9 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   section_background_color: "#FFFFFF"
-  uppercase: The benefits
-  black_text: Why PaperCut Grows is good for your bottom line, and the planet
+  image_alignment: "left"
+  title: The benefits
+  heading: Why PaperCut Grows is good for your bottom line, and the planet
   text: Grows is an easy and affordable way to make business printing Forest Positive. Plant more trees than your printing uses, maximize your climate action, and directly invest in reforestation.
   image_path: /uploads/image 19.png
   image_alt: Screenshot of dashboard.
@@ -80,3 +82,9 @@ _inputs:
       values:
         - "#F8F9FA"
         - "#FFFFFF"
+  tile_alignment:
+    type: select
+    options:
+      values: 
+       - "left"
+       - "right"

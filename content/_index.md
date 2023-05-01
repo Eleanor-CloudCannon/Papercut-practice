@@ -60,8 +60,9 @@ content_blocks:
       that's enough oxygen to keep a human breathing for 2 years!
   - _bookshop_name: left-right-accordian
     section_background_color: '#FFFFFF'
-    uppercase: The benefits
-    black_text: Why PaperCut Grows is good for your bottom line, and the planet
+    image_alignment: "left"
+    title: The benefits
+    heading: Why PaperCut Grows is good for your bottom line, and the planet
     text: >-
       Grows is an easy and affordable way to make business printing Forest
       Positive. Plant more trees than your printing uses, maximize your climate
