@@ -10,15 +10,17 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#F8F9FA"
+  image_alignment: "left"
   title: 
   heading: 
   text:   
   image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
   image_alt: Placeholder alt text
-  image_alignment: "left"
+  
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   section_background_color: "#F8F9FA"
+  image_alignment: "left"
   title: Forest positive printing
   heading: What is PaperCut Grows?
   text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
@@ -30,7 +32,7 @@ preview:
    We’re the experts on the print side of things, we leave the actual tree planting to our non-profit reforestation partners around the globe.  
   image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
   image_alt: People planting trees
-  image_alignment: "left"
+  
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   image_alignment:

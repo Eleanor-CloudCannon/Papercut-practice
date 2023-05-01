@@ -8,6 +8,7 @@ content_blocks:
     button: Get Papercut grows
   - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
+    image_alignment: "left"
     title: Forest positive printing
     heading: What is PaperCut Grows?
     text: >-
@@ -24,7 +25,7 @@ content_blocks:
       planting to our non-profit reforestation partners around the globe.
     image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
     image_alt: People planting trees
-    image_alignment: "left"
+    
   - _bookshop_name: video-center
     section_background_color: '#FFFFFF'
     black_text: Forest Positive printing with PaperCut Grows
@@ -111,6 +112,7 @@ content_blocks:
           environmental change on their front doorstep.
   - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
+    image_alignment: "left"
     title: Learn more
     heading: How does PaperCut Grows work?
     text: >-
@@ -135,7 +137,7 @@ content_blocks:
       purchase more trees to stay Forest Positive.
     image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
     image_alt: Hand using PaperCuts
-    image_alignment: "left"
+    
   - _bookshop_name: left-right-with-buttons
     section_background_color: '#FFFFFF'
     black_heading: What our customers say
