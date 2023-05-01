@@ -10,8 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   section_background_color: "#F8F9FA"
-  uppercase: 
-  subtitle: 
+  title: 
+  heading: 
   text:   
   image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
   image_alt: Placeholder alt text
@@ -19,8 +19,8 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   section_background_color: "#F8F9FA"
-  uppercase: Forest positive printing
-  subtitle: What is PaperCut Grows?
+  title: Forest positive printing
+  heading: What is PaperCut Grows?
   text: PaperCut Grows is our sustainability program that transforms your essential documents into Forest Positive printing.  
    
 

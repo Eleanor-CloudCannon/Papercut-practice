@@ -7,16 +7,16 @@
         </div>
 
         <div class="{{ $c }}__right">
-            <h2 class="{{ $c }}__uppercase">{{ .uppercase }}</h2>
-            <h4 class="{{ $c }}__subtitle">{{ .subtitle }}</h4>
+            <h2 class="{{ $c }}__uppercase">{{ .title }}</h2>
+            <h4 class="{{ $c }}__subtitle">{{ .heading }}</h4>
             <p>{{ .text | markdownify }}</p>
         </div>
 
     {{ else }}
         
     <div class="{{ $c }}__left">
-        <h2 class="{{ $c }}__uppercase">{{ .uppercase }}</h2>
-        <h4 class="{{ $c }}__subtitle">{{ .subtitle }}</h4>
+        <h2 class="{{ $c }}__uppercase">{{ .title }}</h2>
+        <h4 class="{{ $c }}__subtitle">{{ .heading }}</h4>
         <p>{{ .text | markdownify }}</p>
     </div>
 

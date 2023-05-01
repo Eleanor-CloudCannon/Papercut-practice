@@ -8,8 +8,8 @@ content_blocks:
     button: Get Papercut grows
   - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
-    uppercase: Forest positive printing
-    subtitle: What is PaperCut Grows?
+    title: Forest positive printing
+    heading: What is PaperCut Grows?
     text: >-
       PaperCut Grows is our sustainability program that transforms your
       essential documents into Forest Positive printing.
@@ -36,6 +36,7 @@ content_blocks:
     video: /uploads/Screen Shot 2022-03-16 at 1.36 1.png
   - _bookshop_name: left-right-tiles
     section_background_color: '#F8F9FA'
+    tile_alignment: "left"
     subtitle: Why Forest Positive matters
     text: >-
       Reducing print waste isn’t enough anymore. Turn your printing’s impact
@@ -110,8 +111,8 @@ content_blocks:
           environmental change on their front doorstep.
   - _bookshop_name: left-right
     section_background_color: '#F8F9FA'
-    uppercase: Learn more
-    subtitle: How does PaperCut Grows work?
+    title: Learn more
+    heading: How does PaperCut Grows work?
     text: >-
       We leverage our industry-leading expertise to estimate your business
       printing up front.
