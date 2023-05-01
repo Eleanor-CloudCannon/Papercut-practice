@@ -141,7 +141,8 @@ content_blocks:
     
   - _bookshop_name: left-right-with-buttons
     section_background_color: '#FFFFFF'
-    black_heading: What our customers say
+    quote_alignment: "left"
+    heading: What our customers say
     text: >-
       Look at all these prominent organizations who’ve made their printing
       Forest Positive
