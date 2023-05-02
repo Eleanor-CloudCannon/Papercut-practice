@@ -1,0 +1,18 @@
+{{ $c := "c-simple-image-card"}}
+
+<div class="{{ $c }}">
+
+        <div class="{{ $c }}__card">
+          <div class="{{ $c }}__card__image-block">
+            <img src="{{ .image }}" class="{{ $c }}__card__image">
+          </div>
+          <img src="{{ .icon1 }}" class="{{ $c }}__card__icon">
+          <div class="{{ $c }}__card__text-block">
+            <h5>{{ .title1 }}</h5>
+            <p>{{ .summary1 }}</p>
+            <a href="{{ .link1 }}">Visit site</a>
+          </div>
+        </div>
+
+      </div>
+</div>
