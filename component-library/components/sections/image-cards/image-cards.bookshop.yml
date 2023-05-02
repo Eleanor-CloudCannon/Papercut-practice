@@ -43,11 +43,11 @@ preview:
       summary: >-
         A certification system and software platform for automated global
         reforestation
-       link: /
-     - image: /uploads/Background.png
-       icon: /uploads/image 16-2.png
-       title: One Tree Planted
-       summary: >-
+      link: /
+    - image: /uploads/Background.png
+      icon: /uploads/image 16-2.png
+      title: One Tree Planted
+      summary: >-
         Announced targets for reducing carbon emissions and climate partnerships
         to work on ocean conservation and forest restoration
       link: /
