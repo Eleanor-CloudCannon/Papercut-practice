@@ -1,12 +1,12 @@
 ---
 title: Home
 content_blocks:
-  - _bookshop_name: hero
+  - _bookshop_name: sections/hero
     background_image: /uploads/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg
     logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
     subtitle: Grow your sustainability story with Forest Positive printing
     button: Get Papercut grows
-  - _bookshop_name: left-right
+  - _bookshop_name: sections/left-right
     section_background_color: '#F8F9FA'
     image_alignment: "left"
     title: Forest positive printing
@@ -26,7 +26,7 @@ content_blocks:
     image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
     image_alt: People planting trees
     
-  - _bookshop_name: video-center
+  - _bookshop_name: sections/video-center
     section_background_color: '#FFFFFF'
     black_text: Forest Positive printing with PaperCut Grows
     text: >-
@@ -35,7 +35,7 @@ content_blocks:
     background_image_left: /uploads/image 15.png
     background_image_right: /uploads/image 14.png
     video: /uploads/Screen Shot 2022-03-16 at 1.36 1.png
-  - _bookshop_name: left-right-tiles
+  - _bookshop_name: sections/left-right-tiles
     section_background_color: '#F8F9FA'
     tile_alignment: "left"
     subtitle: Why Forest Positive matters
@@ -58,7 +58,7 @@ content_blocks:
     content3: >-
       One mature tree absorbs more than 48 pounds of carbon dioxide each year,
       that's enough oxygen to keep a human breathing for 2 years!
-  - _bookshop_name: left-right-accordian
+  - _bookshop_name: sections/left-right-accordian
     section_background_color: '#FFFFFF'
     image_alignment: "left"
     title: The benefits
@@ -111,7 +111,7 @@ content_blocks:
           Customers personally choose a planting project close to their
           community, their people, and their hearts, driving positive
           environmental change on their front doorstep.
-  - _bookshop_name: left-right
+  - _bookshop_name: sections/left-right
     section_background_color: '#F8F9FA'
     image_alignment: "left"
     title: Learn more
@@ -139,7 +139,7 @@ content_blocks:
     image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
     image_alt: Hand using PaperCuts
     
-  - _bookshop_name: left-right-with-buttons
+  - _bookshop_name: sections/left-right-with-buttons
     section_background_color: '#FFFFFF'
     quote_alignment: "left"
     heading: What our customers say
@@ -157,7 +157,7 @@ content_blocks:
     image_alt1: Construction area
     image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
     image_alt2: Shipboard Education students studying
-  - _bookshop_name: image-cards
+  - _bookshop_name: sections/image-cards
     section_background_color: '#F8F9FA'
     black_heading: Who does the planting?
     text: >-
@@ -182,7 +182,7 @@ content_blocks:
     title3: Konica Minolta
     summary3: Enabling carbon neutrality program
     link3: /
-  - _bookshop_name: image-left-color-background
+  - _bookshop_name: sections/image-left-color-background
     section_background_color: '#ffffff'
     heading: How to get PaperCut Grows
     text: >-
@@ -192,7 +192,7 @@ content_blocks:
     image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
     image_alt: People planting trees
     image_background_color: '#f3faf4'
-  - _bookshop_name: call-to-action
+  - _bookshop_name: sections/call-to-action
     section_background_color: '#26a726'
     heading: Ready to get started?
     text: Compare our products or dive a little deeper into product solutions.
