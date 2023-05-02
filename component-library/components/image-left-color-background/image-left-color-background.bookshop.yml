@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "image-left-color-background"
-  description: Image on the left side, text on the right. A background colour behind the image and text, button.
+  description: Background colour and button. Image on the left side, text on the right. A background colour behind the image and text, button.
   icon: vertical_split
   tags: []
 
@@ -12,7 +12,7 @@ blueprint:
   section_background_color: "#FFFFFF"
   heading: 
   text: 
-  button_text: 
+  button_text: button text
   image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
   image_alt: 
   image_background_color: "#F3FAF4"

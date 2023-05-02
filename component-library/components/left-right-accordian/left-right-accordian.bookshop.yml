@@ -82,7 +82,7 @@ _inputs:
       values:
         - "#F8F9FA"
         - "#FFFFFF"
-  tile_alignment:
+  image_alignment:
     type: select
     options:
       values: 
