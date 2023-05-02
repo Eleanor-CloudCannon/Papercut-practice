@@ -163,25 +163,28 @@ content_blocks:
     text: >-
       Meet some of the amazing non-profit and NGOs on the field who are planting
       trees on your behalf.
-    image1: /uploads/unsplash_gHho4FE4Ga0.png
-    icon1: /uploads/image 16.png
-    title1: PrintReleaf
-    summary1: >-
-      A certification system and software platform for automated global
-      reforestation
-    link1: /
-    image2: /uploads/Background.png
-    icon2: /uploads/image 16-2.png
-    title2: One Tree Planted
-    summary2: >-
-      Announced targets for reducing carbon emissions and climate partnerships
-      to work on ocean conservation and forest restoration
-    link2: /
-    image3: /uploads/unsplash_19SC2oaVZW0.png
-    icon3: /uploads/image 16-3.png
-    title3: Konica Minolta
-    summary3: Enabling carbon neutrality program
-    link3: /
+    cards: 
+      - image: /uploads/unsplash_gHho4FE4Ga0.png
+        icon: /uploads/image 16.png
+        title: PrintReleaf
+        summary: >-
+          A certification system and software platform for automated global
+          reforestation
+        link: /
+      - image: /uploads/Background.png
+        icon: /uploads/image 16-2.png
+        title: One Tree Planted
+        summary: >-
+          Announced targets for reducing carbon emissions and climate partnerships
+          to work on ocean conservation and forest restoration
+        link: /
+      - image: /uploads/unsplash_19SC2oaVZW0.png
+        icon: /uploads/image 16-3.png
+        title: Konica Minolta
+        summary: >-
+          Enabling carbon neutrality program
+        link: /
+      
   - _bookshop_name: sections/image-left-color-background
     section_background_color: '#ffffff'
     heading: How to get PaperCut Grows

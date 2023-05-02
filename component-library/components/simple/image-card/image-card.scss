@@ -1,8 +1,4 @@
 .c-simple-image-card {
-    width: 100%; 
-    grid-template-columns: var(--twelve-column-grid);
-    display: grid;
-    padding: 96px 0px;
     
     &__card {
       background-color: #FFFFFF;
