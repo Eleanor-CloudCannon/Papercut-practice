@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "video-center"
+  label: "video-center-image-background"
   description: Video area with image background. Heading and subheading then background image with a video on top.
   icon: play_arrow
   tags: []

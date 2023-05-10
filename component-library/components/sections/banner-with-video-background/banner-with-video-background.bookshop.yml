@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "hero"
+  label: "banner-with-video-background"
   description: Hero section with an image for the background, logo, heading and button.
   icon: title
   tags: []

@@ -1,12 +1,12 @@
 ---
 title: Home
 content_blocks:
-  - _bookshop_name: sections/hero
+  - _bookshop_name: sections/banner-with-video-background
     background_image: /uploads/lukasz-szmigiel-2ShvY8Lf6l0-unsplash.jpg
     logo_path: /uploads/PaperCut-Grows-Logo-FA21-RGB 1.svg
     subtitle: Grow your sustainability story with Forest Positive printing
     button: Get Papercut grows
-  - _bookshop_name: sections/left-right
+  - _bookshop_name: sections/left-right-with-text-block
     section_background_color: '#F8F9FA'
     image_alignment: "left"
     title: Forest positive printing
@@ -26,7 +26,7 @@ content_blocks:
     image_path: /uploads/M2112-005_PaperCut-Grows-Summit-FAQs-FA 2.png
     image_alt: People planting trees
     
-  - _bookshop_name: sections/video-center
+  - _bookshop_name: sections/video-center-image-background
     section_background_color: '#FFFFFF'
     black_text: Forest Positive printing with PaperCut Grows
     text: >-
@@ -111,7 +111,7 @@ content_blocks:
           Customers personally choose a planting project close to their
           community, their people, and their hearts, driving positive
           environmental change on their front doorstep.
-  - _bookshop_name: sections/left-right
+  - _bookshop_name: sections/left-right-with-text-block
     section_background_color: '#F8F9FA'
     image_alignment: "left"
     title: Learn more
@@ -139,7 +139,7 @@ content_blocks:
     image_path: /uploads/PaperCut-Grows-Brand-Animation_Frame-29 1.png
     image_alt: Hand using PaperCuts
     
-  - _bookshop_name: sections/left-right-with-buttons
+  - _bookshop_name: sections/left-right-with-quote-block
     section_background_color: '#FFFFFF'
     quote_alignment: "left"
     heading: What our customers say

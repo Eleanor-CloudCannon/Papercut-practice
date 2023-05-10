@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: "image-left"
-  description: Image on the left side, text on the right. Green uppercase text, question, main text.
+  label: "left-right-with-text-block"
+  description: Image on the left side, text on the right. Green uppercase text, black text, main text.
   icon: vertical_split
   tags: []
 
