@@ -196,7 +196,7 @@ content_blocks:
     image_alt: People planting trees
     image_background_color: '#f3faf4'
   - _bookshop_name: sections/call-to-action
-    section_background_color: '#26a726'
+    section_background_color: '#19892B'
     heading: Ready to get started?
     text: Compare our products or dive a little deeper into product solutions.
     white_button: Compare our products
