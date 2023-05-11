@@ -1,11 +1,11 @@
-{{ $c := "c-section-graph-block"}}
+{{ $c := "c-section-left-right-accordian-block"}}
 
 <div class="{{ $c }}" style=" background-color: {{ .section_background_color }}">
     {{ if eq .image_alignment "left"}}
     <div class="{{ $c }}__text">
-        <h2 class="uppercase">{{ .title }}</h2>
-        <h3 class="black-text">{{ .heading }}</h3>
-        <p>{{ .text }}</p>
+        <h2 class="{{ $c }}__uppercase">{{ .title }}</h2>
+        <h3 class="{{ $c }}__subtitle">{{ .heading }}</h3>
+        <p class="{{ $c }}__text">{{ .text }}</p>
     </div>
     <div class="{{ $c }}__image_left">
         <img src="{{ .image_path }}" alt="{{ .image_alt }}">
@@ -15,7 +15,7 @@
         <details>
             <summary>
                 <img src="{{ .icon_path }}">
-                <h5>{{ .title }}</h5>
+                <p class="{{ $c }}__accordian_title">{{ .title }}</p>
                 <span class="{{ $c }}__icon--vertical"></span>
                 <span class="{{ $c }}__icon--horizontal"></span>
             </summary>

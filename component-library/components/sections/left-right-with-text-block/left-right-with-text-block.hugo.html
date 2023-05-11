@@ -1,4 +1,4 @@
-{{ $c := "c-section-image-left-block"}}
+{{ $c := "c-section-left-right-with-text-block"}}
 
 <div class="{{ $c }}" style=" background-color: {{ .section_background_color }}">
     {{ if eq .image_alignment "left"}}
@@ -8,7 +8,7 @@
 
         <div class="{{ $c }}__right">
             <h2 class="{{ $c }}__uppercase">{{ .title }}</h2>
-            <h4 class="{{ $c }}__subtitle">{{ .heading }}</h4>
+            <h5 class="{{ $c }}__subtitle">{{ .heading }}</h5>
             <p>{{ .text | markdownify }}</p>
         </div>
 
@@ -16,7 +16,7 @@
         
     <div class="{{ $c }}__left">
         <h2 class="{{ $c }}__uppercase">{{ .title }}</h2>
-        <h4 class="{{ $c }}__subtitle">{{ .heading }}</h4>
+        <h5 class="{{ $c }}__subtitle">{{ .heading }}</h5>
         <p>{{ .text | markdownify }}</p>
     </div>
 

@@ -1,12 +1,31 @@
-.c-left-right-with-buttons-block {
+.c-left-right-with-quote-block {
     width: 100%; 
     grid-template-columns: var(--twelve-column-grid);
     display: grid;
     padding: 96px 0px;
 
+    &__title {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #3B3B3D;
+        margin: 0;
+    }
+
+    &__subtitle {
+        color: #26A726;
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
     &__top-text {
         text-align: center;
-        grid-column: 2/14;
+        grid-column: 4/12;
         @media screen and (max-width: 1200px){
             grid-row: 1;
         }
@@ -29,13 +48,28 @@
         }
     }
 
+
     &__quote-text p {
         font-size: 25px;
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 40px;
+        color: #3B3B3D;
     }
+    &__quote-mark{
+            fill:#26A726;
+        }
 
     &__author p {
-        font-weight: 700;
         margin-bottom: 30px;
+        color: #3B3B3D;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     &__mark {
@@ -45,8 +79,39 @@
     }
 
     &__green-button {
-        background-color: #26A726;
+        background-color: #19892B;
+        border: 2px #19892B solid;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 10px;
         color:#FFFFFF;
+        text-transform: uppercase;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px; 
+        @media(max-width: 1200px){
+            margin-bottom: 20px;
+        }
+    }
+    &__white-button {
+        background-color: #FFFFFF;
+        border: 2px #19892B solid;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 10px;
+        color:#19892B;
+        text-transform: uppercase;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px; 
         @media(max-width: 1200px){
             margin-bottom: 20px;
         }

@@ -6,12 +6,31 @@
     
     &__top-text {
         text-align: center;
-        grid-column: 2/14;
+        grid-column: 4/12;
         display: block;
         @media screen and (max-width: 1200px){
           text-align: center;
         }
   }
+
+  &__title {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3B3B3D;
+    margin: 0;
+}
+
+&__subtitle {
+    color: #26A726;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
     
   &__card-block {
      grid-column: 2/14;
