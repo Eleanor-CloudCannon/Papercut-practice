@@ -6,7 +6,11 @@
 
         &__text-div{
             text-align: center;
-            grid-column: 4/12
+            grid-column: 4/12;
+            @media (max-width: 1023px){
+                grid-column: 1/15;
+                padding: 0 10px;
+            }
         }
 
         &__title {
@@ -26,6 +30,7 @@
             font-weight: 400;
             font-size: 24px;
             line-height: 36px;
+            
         }
 
         &__video-div{
@@ -33,8 +38,8 @@
             display: grid;
             grid-template-columns: auto auto;
 
-            @media (max-width: 1200px){
-                grid-column: 1/15;
+            @media (max-width: 1023px){
+                grid-column: 3/13;
             }
             img{max-width: 80%}
         }
@@ -60,7 +65,7 @@
                 max-width: 100%;
                 justify-self:center;
         }
-                @media  screen and  (max-width: 1200px){
+                @media  screen and  (max-width: 1023px){
           } 
         } 
 }

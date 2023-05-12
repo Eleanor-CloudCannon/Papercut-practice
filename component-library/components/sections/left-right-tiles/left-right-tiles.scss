@@ -57,6 +57,9 @@
         @media(max-width: 1200px){
             grid-column: 1/15;
             justify-self: center;
+            img {
+                max-width: 100%;
+            }
         }
     }
 
