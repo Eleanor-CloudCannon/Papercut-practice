@@ -3,14 +3,11 @@
     grid-template-columns: var(--twelve-column-grid);
     display: grid;
     padding: 0px 0px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    margin: -10px;
-
 
     &__background img{
-    width: 110vw;
-    height: 110%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
     object-fit: cover;
      }
 
@@ -19,17 +16,17 @@
         width: 100%;
         grid-column: 1/15;
         grid-row: 1;  
+        height: auto;
     }
-    @media screen and (max-width:478px){
-       height: auto;
-    }
+
     
     &__text-section {
         margin-top: 96px;
+        margin-bottom: 96px;
         grid-row: 1;
         grid-column: 2/8;
         @media screen and (max-width:478px){
-            grid-column: 3/13;
+            grid-column: 2/14;
             text-align: center;
         }
         img{
@@ -61,7 +58,6 @@
         font-weight: 600;
         font-size: 14px;
         line-height: 21px;
-        margin-bottom: 92px;
     }
 
 }
