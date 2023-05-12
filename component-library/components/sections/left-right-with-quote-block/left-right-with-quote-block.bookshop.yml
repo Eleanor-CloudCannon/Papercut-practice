@@ -21,6 +21,8 @@ blueprint:
   image_alt1: 
   image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
   image_alt2: 
+  image_path3: /uploads/shane-rounce-DNkoNXQti3c-unsplash.jpg
+  image_alt3: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -36,6 +38,8 @@ preview:
   image_alt1: Construction area
   image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
   image_alt2: Shipboard Education students studying
+  image_path3: /uploads/shane-rounce-DNkoNXQti3c-unsplash.jpg
+  image_alt3: Hug a tree
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
