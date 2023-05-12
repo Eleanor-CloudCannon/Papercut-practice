@@ -157,6 +157,8 @@ content_blocks:
     image_alt1: Construction area
     image_path2: /uploads/annie-spratt-MChSQHxGZrQ-unsplash.jpg
     image_alt2: Shipboard Education students studying
+    image_path3: /uploads/shane-rounce-DNkoNXQti3c-unsplash.jpg
+    image_alt3: Hug a tree
   - _bookshop_name: sections/image-cards
     section_background_color: '#F8F9FA'
     black_heading: Who does the planting?

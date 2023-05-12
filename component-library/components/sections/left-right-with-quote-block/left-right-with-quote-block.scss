@@ -3,6 +3,7 @@
     grid-template-columns: var(--twelve-column-grid);
     display: grid;
     padding: 96px 0px;
+    overflow: hidden;
 
     &__title {
         font-family: 'Barlow', sans-serif;
@@ -26,14 +27,15 @@
     &__top-text {
         text-align: center;
         grid-column: 4/12;
-        @media screen and (max-width: 1200px){
+        @media screen and (max-width: 1023px){
             grid-row: 1;
+            grid-column: 2/14;
         }
   }
 
     &__quote-block_left {
         grid-column: 2/8;
-        @media(max-width: 1200px){
+        @media(max-width: 1023px){
           grid-column: 1/14;
           margin-left: 10px; 
           grid-row: 3;
@@ -41,7 +43,7 @@
     }
     &__quote-block_right {
         grid-column: 8/14;
-        @media(max-width: 1200px){
+        @media(max-width: 1023px){
           grid-column: 1/14;
           margin-left: 10px; 
           grid-row: 3;
@@ -93,7 +95,7 @@
         font-weight: 600;
         font-size: 14px;
         line-height: 21px; 
-        @media(max-width: 1200px){
+        @media(max-width: 1023px){
             margin-bottom: 20px;
         }
     }
@@ -112,36 +114,46 @@
         font-weight: 600;
         font-size: 14px;
         line-height: 21px; 
-        @media(max-width: 1200px){
+        @media(max-width: 1023px){
             margin-bottom: 20px;
         }
     }
 
     &__image-block_right {
         grid-column: 8/14;
-        grid-template-columns: 1fr 1fr;
-        display: grid;
-        @media(max-width: 1200px){
+        display: flex;
+        padding-bottom: 40px;
+        @media(max-width: 1023px){
             grid-column: 1/15;
             grid-row: 2;
+            justify-content: center;
         }
         img {
+        max-height: 480px;
         padding: 10px;
-        max-width: 90%;
+        @media(max-width: 1023px){
+            max-width: 30%;
+            max-height: auto;
+            }
     }
     }
 
     &__image-block_left {
         grid-column: 2/8;
-        grid-template-columns: 1fr 1fr;
-        display: grid;
-        @media(max-width: 1200px){
+        display: flex;
+        padding-bottom: 40px;
+        @media(max-width: 1023px){
             grid-column: 1/15;
             grid-row: 2;
+            justify-content: center;
         }
         img {
+        max-height: 480px;
         padding: 10px;
-        max-width: 90%;
+        @media(max-width: 1023px){
+            max-width: 30%;
+            max-height: auto;
+            }
     }
     }
     
